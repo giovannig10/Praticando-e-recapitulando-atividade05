@@ -1,96 +1,86 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #E0F7FA;
+.header {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-header {
-    background-color: #004D40;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-main {
-    flex: 1;
-    display: flex;
+    align-items: baseline;
+    gap: 1vh;
     justify-content: center;
-    align-items: center;
 }
 
-.container {
+.vermelho-1 {
+background-color: red;
+height: 20vh;
+width: 100rem;
+border-radius: 1rem;
+}
+
+.vermelho-2 {
+background-color: red;
+height: 20vh;
+width: 30rem;
+border-radius: 1rem;
+}
+
+.container-vremelho {
     display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    background-color: #FFFFFF;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    gap: 2rem;
 }
 
-.card {
-    color: white;
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
+.amarelo {
+background-color: rgb(199, 199, 31);
+height: 42rem;
+width: 50rem;
+border-radius: 1rem;
 }
 
-.card1 {
-    width: 60rem;
-    height: 5rem;
-    background-color: red;
+.roxo-1 {
+background-color: purple;
+height: 20rem;
+width: 70rem;
+border-radius: 1rem;
 }
 
-.card2 {
-    width: 30rem;
-    height: 5rem;
-    background-color: orange;
+.roxo-2 {
+background-color: purple;
+height: 20rem;
+width: 70rem;
+border-radius: 1rem;
 }
 
-.card3 {
-    width: 35rem;
-    height: 25rem;
-    background-color: yellow;
+.container-amarelo-roxo {
+    display: flex;
+    gap: 1rem;
+    row-gap: 2rem;
+    margin-top: 20px;
 }
 
-.card4 {
-    width: 22rem;
-    height: 10rem;   
-    background-color: purple;
+.container-roxo {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
 }
 
-.card5 {
-    width: 22rem;
-    height: 10rem;
-    background-color: purple;
+.azul-1 {
+background-color: blue;
+height: 10rem;
+width: 25rem;
+border-radius: 1rem;
 }
 
-.card6 {
-    width: 13.3;
-    height: 5rem;
-    background-color: blue;
+.azul-2 {
+background-color: blue;
+height: 10rem;
+width: 70rem;
+border-radius: 1rem;
 }
 
-.card7 {
-    width: 13.3;
-    height: 5rem;
-    background-color: blue;
+.azul-3 {
+background-color: blue;
+height: 10rem;
+width: 25rem;
+border-radius: 1rem;
 }
 
-.card8 {
-    width: 13.3;
-    height: 5rem;
-    background-color: blue;
+.container-azul {
+    display: flex; 
+    gap: 2rem;
+    margin-top: 20px;
 }
-
